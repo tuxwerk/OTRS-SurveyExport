@@ -4,7 +4,7 @@
     <Version>0.0.1</Version>
     <Framework>3.1.x</Framework>
     <Vendor>tuxwerk OHG</Vendor>
-    <URL>http://tuxwerk.de/</URL>
+    <URL>https://github.com/tuxwerk/OTRS-SurveyExport</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
     <Description Lang="en">Survey CSV Export.</Description>
     <Description Lang="de">Umfragen CSV Export.</Description>
