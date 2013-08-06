@@ -101,16 +101,24 @@ sub Run {
 	push @CSVData, \@Data;
     }
 
+    # get Separator from language file
+    my $UserCSVSeparator = $Self->{LayoutObject}->{LanguageObject}->{Separator};
+
+    if ( $Self->{ConfigObject}->Get('PreferencesGroups')->{CSVSeparator}->{Active} ) {
+        my %UserData = $Self->{UserObject}->GetUserData( UserID => $Self->{UserID} );
+        $UserCSVSeparator = $UserData{UserCSVSeparator};
+    }
+
     my $CSV = $Self->{CSVObject}->Array2CSV(
 	Head      => \@CSVHead,
 	Data      => \@CSVData,
-	Separator => ';',
+	Separator => $UserCSVSeparator,
     );
 
     return $Self->{LayoutObject}->Attachment(
 	Filename    => "survey.csv",
 	ContentType => "text/csv; charset=utf8",
-	Content     => "\x{EF}\x{BB}\x{BF}" . $CSV,
+	Content     => $CSV,
     );
 }
 
