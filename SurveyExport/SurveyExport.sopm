@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <otrs_package version="1.0">
     <Name>SurveyExport</Name>
-    <Version>0.0.1</Version>
-    <Framework>3.1.x</Framework>
+    <Version>0.1.1</Version>
+    <Framework>3.3.x</Framework>
     <Vendor>tuxwerk OHG</Vendor>
     <URL>https://github.com/tuxwerk/OTRS-SurveyExport</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
@@ -11,7 +11,5 @@
     <Filelist>
         <File Permission="644" Location="Kernel/Config/Files/SurveyExport.xml"/>
         <File Permission="644" Location="Kernel/Modules/AgentSurveyExport.pm"/>
-        <File Permission="644" Location="Custom/Kernel/Modules/AgentSurveyZoom.pm"/>
-        <File Permission="644" Location="Kernel/Output/HTML/Standard/AgentSurveyZoomExport.dtl"/>
     </Filelist>
 </otrs_package>
