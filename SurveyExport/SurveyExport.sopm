@@ -3,6 +3,7 @@
     <Name>SurveyExport</Name>
     <Version>4.0.1</Version>
     <Framework>4.0.x</Framework>
+    <Framework>5.0.x</Framework>
     <Vendor>tuxwerk OHG</Vendor>
     <URL>https://github.com/tuxwerk/OTRS-SurveyExport</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
