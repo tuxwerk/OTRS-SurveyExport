@@ -2,7 +2,7 @@
 <otrs_package version="1.0">
     <Name>SurveyExport</Name>
     <Version>0.2</Version>
-    <Framework>3.3.x</Framework>
+    <Framework>5.0.x</Framework>
     <Vendor>tuxwerk OHG</Vendor>
     <URL>https://github.com/tuxwerk/OTRS-SurveyExport</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>

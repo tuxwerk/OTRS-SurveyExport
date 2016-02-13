@@ -17,11 +17,11 @@
         <SubGroup>Frontend::Agent::Survey::MenuModule</SubGroup>
         <Setting>
             <Hash>
-                <Item Key="Module">Kernel::Output::HTML::SurveyMenuGeneric</Item>
+                <Item Key="Module">Kernel::Output::HTML::SurveyMenu::Generic</Item>
                 <Item Key="Name">Export</Item>
                 <Item Key="Description" Translatable="1">Export Survey Details</Item>
-                <Item Key="Action">AgentSurveyStats</Item>
-                <Item Key="Link">Action=AgentSurveyExport;SurveyID=$LQData{"SurveyID"}</Item>
+                <Item Key="Action">AgentSurveyExport</Item>
+                <Item Key="Link">Action=AgentSurveyExport;SurveyID=[% Data.SurveyID | uri %]</Item>
                 <Item Key="Target">PopUp</Item>
             </Hash>
         </Setting>
