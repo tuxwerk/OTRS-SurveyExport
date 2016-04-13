@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <otrs_package version="1.0">
     <Name>SurveyExport</Name>
-    <Version>0.2</Version>
+    <Version>4.0.1</Version>
     <Framework>4.0.x</Framework>
     <Vendor>tuxwerk OHG</Vendor>
     <URL>https://github.com/tuxwerk/OTRS-SurveyExport</URL>
