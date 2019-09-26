@@ -2,7 +2,7 @@
  OTRS Package - Survey Export
 =====================================
 
-This is a package for the ticket system OTRS_ 4.0.x
+This is a package for the ticket system OTRS_ 5.0.x
 
 Adds a possibility to export the results of surveys as CSV file.
 
